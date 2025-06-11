@@ -178,16 +178,20 @@
                             <div class="form-group">
                                 <input type="email" class="form-control border-0 p-4" placeholder="Tu Email" required="required" />
                             </div>
-                            <div class="form-group">
-                                <select class="custom-select border-0 px-4" style="height: 47px;">
-                                    <option selected>Seleccione una opción</option>
-                                    <option value="1">Hospedaje</option>
-                                    <option value="2">Turismo</option>
-                                </select>
-                            </div>
-                            <div>
-                                <button class="btn btn-dark btn-block border-0 py-3" type="submit">ENVIAR</button>
-                            </div>
+                            <form action="https://formsubmit.co/meneses.alejandro.cb37@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Nueva selección del formulario">
+    
+    <div class="form-group">
+        <select name="opcion" class="custom-select border-0 px-4" style="height: 47px;" required>
+            <option value="" selected disabled>Seleccione una opción</option>
+            <option value="Hospedaje">Hospedaje</option>
+            <option value="Turismo">Turismo</option>
+        </select>
+    </div>
+    <div>
+        <button class="btn btn-dark btn-block border-0 py-3" type="submit">ENVIAR</button>
+    </div>
+</form>
                         </form>
                     </div>
                 </div>
