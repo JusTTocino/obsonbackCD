@@ -170,34 +170,30 @@
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="bg-primary py-5 px-4 px-sm-5">
-                        <form class="py-5">
-                            <div class="form-group">
-                                <input type="text" class="form-control border-0 p-4" placeholder="Tu nombre" required="required" />
-                            </div>
-                            <div class="form-register">
-				    <form
-  action="https://formspree.io/f/xrbkqqrn"
-  method="POST"
->
-                                <input type="email" class="form-control border-0 p-4" placeholder="Tu Email" required="required" />
-                            <div>
-        <select name="opcion" class="custom-select border-0 px-4" style="height: 47px;" required>
-            <option value="" selected disabled>Seleccione una opción</option>
-            <option value="Hospedaje">Hospedaje</option>
-            <option value="Turismo">Turismo</option>
-        </select>
-    </div>
-    <div>
-        <button class="btn btn-dark btn-block border-0 py-3" type="submit">ENVIAR</button>
-    </div>
-</form>
-                        </form>
-                    </div>
-                </div>
+                   <div class="bg-primary py-5 px-4 px-sm-5">
+        <form class="py-5" action="https://formspree.io/f/xrbkqqrn" method="POST">
+            <div class="form-group">
+                <input type="text" name="nombre" class="form-control border-0 p-4" placeholder="Tu nombre" required />
             </div>
-        </div>
+            <div class="form-group">
+                <input type="email" name="email" class="form-control border-0 p-4" placeholder="Tu Email" required />
+            </div>
+            <div class="form-group">
+                <select name="opcion" class="custom-select border-0 px-4" style="height: 47px;" required>
+                    <option value="" selected disabled>Seleccione una opción</option>
+                    <option value="Hospedaje">Hospedaje</option>
+                    <option value="Turismo">Turismo</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea name="mensaje" class="form-control border-0 p-4" rows="4" placeholder="Escribe tu mensaje (opcional)"></textarea>
+            </div>
+            <div>
+                <button class="btn btn-dark btn-block border-0 py-3" type="submit">ENVIAR</button>
+            </div>
+        </form>
     </div>
+</div>
     <!-- Quote Request Start -->
 
 
